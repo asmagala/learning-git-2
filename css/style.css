@@ -47,3 +47,38 @@ p {
     font-size: 18px;
     font-style: italic;
 }
+
+@media (max-width: 767px) {
+    section {
+        padding: 48px;
+    }
+    
+    .container {
+        max-width: 720px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        padding: 22px 0 0;
+    }
+    
+    h3 {
+        padding: 0 0 20px;
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.1em;
+    }
+    
+    .refrain {
+        padding-left: 18px;
+    }
+    
+    .year {
+        margin-top: 22px;
+        
+        font-size: 16px;
+    }
+}

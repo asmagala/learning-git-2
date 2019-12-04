@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("../images/night01.jpg");
+    color: white;
+ }
+
+section {
+    padding: 96px;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0;
+    padding: 48px 0 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 70px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.refrain {
+    padding-left: 24px;
+}
+
+.year {
+    margin-top: 48px;
+    text-align: left;
+    font-size: 18px;
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 48px;
+    }
+    
+    .container {
+        max-width: 720px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        padding: 22px 0 0;
+    }
+    
+    h3 {
+        padding: 0 0 20px;
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.1em;
+    }
+    
+    .refrain {
+        padding-left: 18px;
+    }
+    
+    .year {
+        margin-top: 22px;
+        
+        font-size: 16px;
+    }
+}

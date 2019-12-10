@@ -1,9 +1,13 @@
 ; autoprefixer-cli
 ./node_modules/autoprefixer-cli/autoprefixer-cli -o css/style.prefixed.css css/style.css
-; ostatnie 2 wersje wszystkich przegl¹darek
+; ostatnie 2 wersje wszystkich przeglÂ¹darek
 ./node_modules/autoprefixer-cli/autoprefixer-cli -b "last 2 versions" -o css/style.prefixed.css css/style.css
 
 ;nu-html-ckecker -> default formater 'stylish'
 ./node_modules/nu-html-checker/bin/cli *.html
 ;nu-html-checker -> formater 'json'  
-/node_modules/nu-html-checker/bin/cli -f json *.html
+./node_modules/nu-html-checker/bin/cli -f json *.html
+
+;;; lub: 
+./cli -f json ../../../*.html
+./node_modules/autoprefixer-cli/autoprefixer-cli -o ../../css/style.prefixed.css ../../css/style.css
